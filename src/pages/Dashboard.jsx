@@ -1,6 +1,5 @@
-import React from "react";
-import { Link, Routes, useNavigate, Route, Outlet } from "react-router-dom";
-import Welcome from "../components/Welcome";
+
+import { Link, useNavigate, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   const navigate = useNavigate();
